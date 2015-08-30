@@ -1,11 +1,10 @@
 {
-    "name": "Node_learning",
-    "description": "Learning is beautiful ",
-    
-    "author": "Brahmananda kar",
-    "dependencies": {
-        "request": "~2.57.0",
-        "q": "1.0.0"
-
-    }
+  "name": "Node_learning",
+  "description": "Learning is beautiful ",
+  "author": "Brahmananda kar",
+  "dependencies": {
+    "github": "^0.2.4",
+    "q": "1.0.0",
+    "request": "~2.57.0"
+  }
 }
