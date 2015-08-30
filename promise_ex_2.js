@@ -40,3 +40,6 @@ var fun3=function(arg1,arg2){
 var promise = q.all([q.fcall(fun1), q.fcall(fun2)]);
 promise.spread(fun3);
 //***************************************
+
+
+
