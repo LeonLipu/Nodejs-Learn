@@ -14,10 +14,12 @@ var getUrl=function(user,callback){
     else {
       var url =data.items[0].avatar_url;
       callback(null,url)
+
     }
 
   });
 }
+
 
 getUrl('leonlipu',function (err,data){
 
