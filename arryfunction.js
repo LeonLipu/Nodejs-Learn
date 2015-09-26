@@ -97,6 +97,31 @@ console.log(iarr.sort(function(a,b){
   return a-b;
 }));
 
+//object sort in desecing order 
+
+var obarr=[{name:"lipu",no:1},{name :"sipu",no:2},{name:"para",no:0}];
+
+
+obarr.sort(function (ob1,ob2){
+
+if(ob1.no>ob2.no){
+  return -1;//
+}
+
+
+if(ob1.no<ob2.no){
+  return 1;
+}
+
+
+if(ob1.no==ob2.no){
+  return 0;
+}
+
+});
+console.log(obarr);
+
+
 console.log("*********push **************");
 //inserted at end
 intarr.push (99);
