@@ -97,7 +97,7 @@ console.log(iarr.sort(function(a,b){
   return a-b;
 }));
 
-//object sort in desecing order 
+//object sort in desecing order
 
 var obarr=[{name:"lipu",no:1},{name :"sipu",no:2},{name:"para",no:0}];
 
@@ -108,11 +108,9 @@ if(ob1.no>ob2.no){
   return -1;//
 }
 
-
 if(ob1.no<ob2.no){
   return 1;
 }
-
 
 if(ob1.no==ob2.no){
   return 0;
@@ -130,3 +128,7 @@ console.log("********* pop **************");
 //deleted at the end
 intarr.pop();
 console.log(intarr);
+
+//concatenation of string
+console.log(intarr.toString());//concatenated by ,(comma)
+console.log(intarr.join("|"));//concatenated by delimeter given by bracket
