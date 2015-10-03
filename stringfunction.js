@@ -45,7 +45,12 @@ console.log("************* slice  *************");
 var str ="something".slice(2,5);
 console.log(str );
 
-//split by regular expression and it wil capture if you give () and second argument is length of array 
+//split by regular expression and it wil capture if you give () and second argument is length of array
 var str="i am staying at nalco and hometown is jajput and which is not behind and which and may be later and thing is something ";
 var arr=str.split(/and|is|be/,4);
 console.log(arr);
+
+
+//substring
+console.log("************* substring   *************");
+console.log("something".substr(1,4));
