@@ -51,6 +51,11 @@ var arr=str.split(/and|is|be/,4);
 console.log(arr);
 
 
-//substring
-console.log("************* substring   *************");
-console.log("something".substr(1,4));
+//substr is 1st argument is index and 2nd argument number of character
+console.log("************* substr   *************");
+console.log("something".substr(2,4));
+
+
+//substring is 1st argument is index and 2nd argument is also index
+console.log("************* substring    *************");
+console.log("something".substring(2,4));
