@@ -59,3 +59,9 @@ console.log("something".substr(2,4));
 //substring is 1st argument is index and 2nd argument is also index
 console.log("************* substring    *************");
 console.log("something".substring(2,4));
+
+console.log("************* upper and lower case and trim   *************");
+console.log("SOMETHING ".toLowerCase());
+console.log("something".toUpperCase());
+
+console.log("  something  and  ".trim();
