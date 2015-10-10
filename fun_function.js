@@ -41,6 +41,21 @@ ob.getmodel.apply(objs);
 
 //use this function to this object
 //here unlike call and apply ,bind will return function and this will be replaceed by object
-
 var newfun=ob.getmodel.bind(objs);
 newfun();
+
+//closer in function
+
+var display =function (){
+  var name ="lipu";
+
+  function getname (){
+
+
+    console.log(name );
+  }
+  return getname ;
+
+}
+//this will return function and that function print the value of name variable 
+display()();
