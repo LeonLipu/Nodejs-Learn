@@ -9,7 +9,9 @@ var str="i have something to say and it would be better and which need to have s
 
  var int =8.77;
  console.log(~~int);//to get decimal value parse int (int ,10)
+ console.log(+"10");
 console.log(int >> 0);
+!function (){console.log("self execution function ");}();
 
 ab("something ","this is not an something and","  it would not be permanate and which would mahabhuta gouri kali jiba puri ")
 
