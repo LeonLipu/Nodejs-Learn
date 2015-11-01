@@ -55,3 +55,37 @@ console.log("************** eval *********************");
 
 var sum=eval("9+2+(8*9)+34");
 console.log(sum);
+
+
+var hello = "something ";
+console.log(hello);
+
+
+var array = [];
+for (var i = 0; i < 5; i++) {
+  array.push(function() {
+    console.log(i);
+  })
+}
+
+
+//here 2 is expecting and turn out to be 5 whyy?????????
+array[2]();
+
+//because first varible is assined to first and then evlauetion start there after
+
+var array2 = [];
+for (var i = 0; i < 5; i++) {
+
+  (function(i) {
+
+    array2.push(function() {
+      console.log(i);
+    });
+
+  })(i);
+}
+
+array2[2]();
+
+
