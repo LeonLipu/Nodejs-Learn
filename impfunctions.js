@@ -89,3 +89,16 @@ for (var i = 0; i < 5; i++) {
 array2[2]();
 
 
+//typeof gives primitive type of variable
+//array ,null ,date is object
+//null is object
+
+console.log(typeof 2); //is number
+console.log(typeof null);//is object
+
+//instanceof checks prototype chain contructor if found return true
+console.log([] instanceof Array); //return true
+console.log({} instanceof Array); //return false
+
+//constructor checks internal prototype which could be overriden by code
+console.log([].constructor());//return []
