@@ -102,3 +102,25 @@ console.log({} instanceof Array); //return false
 
 //constructor checks internal prototype which could be overriden by code
 console.log([].constructor());//return []
+
+
+//some random uses in real time scenario
+
+//get random item from array
+
+var arr=["hi",'hello','nothing','something','world','cat'];
+var item = arr[Math.floor(Math.random()*arr.length)];
+console.log(item);
+
+
+//get random number with specific range
+var min =10,max=20;
+var num=Math.floor(Math.random()*(max-min+1))+min;
+console.log(num);
+
+//generating arr with some specific value
+
+var ar=[],max=10;
+for(var i=0;ar.push(i++)<max;);
+
+console.log(ar);
