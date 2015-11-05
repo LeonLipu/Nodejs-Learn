@@ -124,3 +124,15 @@ var ar=[],max=10;
 for(var i=0;ar.push(i++)<max;);
 
 console.log(ar);
+
+//shuffled array
+
+var arr2 =["hi","hello","something","nothing",'many','may ','be','and'];
+
+arr2=arr2.sort(function(){
+
+  return Math.random()-0.5;
+});
+
+console.log("suffled array");
+console.log(arr2);
