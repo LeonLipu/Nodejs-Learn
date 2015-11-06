@@ -136,3 +136,9 @@ arr2=arr2.sort(function(){
 
 console.log("suffled array");
 console.log(arr2);
+
+//appending an arry to another array
+var arr3 =[3,6];
+var arr4=[6,7];
+[].push.apply(arr3,arr4);
+console.log(arr3);
