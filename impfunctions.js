@@ -142,3 +142,12 @@ var arr3 =[3,6];
 var arr4=[6,7];
 [].push.apply(arr3,arr4);
 console.log(arr3);
+
+//getting max and minmum number of arry
+var arr5=[33,44,55,22,11,777,23,52,555,63];
+
+var max =Math.max.apply(Math,arr5);
+var min=Math.min.apply(Math,arr5);
+
+console.log(max);
+console.log(min);
