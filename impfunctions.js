@@ -151,3 +151,22 @@ var min=Math.min.apply(Math,arr5);
 
 console.log(max);
 console.log(min);
+
+
+//how to use some default value
+var something = "nothing ";
+something = something || "anything ";
+console.log(something);
+//if(a==0){dosomething()}
+var a = 0;
+a === 0 && dosomething();
+//if(a=!0){dosomething()}
+a = 9;
+a === 0 || dosomething();
+function dosomething(hello) {
+  hello = hello || "greeting";
+  console.log(hello);
+  console.log("function is executed ");
+
+}
+
