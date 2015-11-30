@@ -9,3 +9,6 @@ console.log(result2);
 
 var result3="something and something ".match(/something/g);//best way to match
 console.log(result3);
+
+var result4 =/something/g.test("something and something"); //test the application 
+console.log(result4);
