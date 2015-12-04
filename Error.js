@@ -7,8 +7,9 @@ try {
 
 console.log(e.filename);
 
-} finally {
 
+} finally {
+//do something always execute
 }
 /*
 Error Object available :
