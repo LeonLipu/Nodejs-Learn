@@ -21,3 +21,8 @@ console.log(doj.getDay());
 console.log(doj.getFullYear());
 console.log(doj.getMonth());
 console.log(doj.getSeconds());
+console.log(doj.getTime()); //milisecond from jan 1 1970
+
+//setting value
+doj.setFullYear(2020,2,11)
+console.log(doj.getFullYear());
