@@ -31,3 +31,16 @@ console.log(type);
 console.log({}.toString.call(arguments));
 
   }
+  //here is replacement with shortcut
+
+if(a)
+{
+  f1()
+}
+else
+{
+  f2();
+}
+
+//the shortcut is
+a&&f1()||f2()
