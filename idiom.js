@@ -44,3 +44,5 @@ else
 
 //the shortcut is
 a&&f1()||f2()
+
+console.log(typeof(NaN));
