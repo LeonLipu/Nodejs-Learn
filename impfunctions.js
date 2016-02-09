@@ -169,4 +169,3 @@ function dosomething(hello) {
   console.log("function is executed ");
 
 }
-
