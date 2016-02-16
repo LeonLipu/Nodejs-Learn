@@ -54,5 +54,10 @@ var pr2=new Promise(function(resolve,reject){
 });
 
 Promise.race([pr1,pr2]).then(function(data){
-  console.log(data);// anandaa since it less time 
+  console.log(data);// anandaa since it less time
+});
+console.log("brahmananda");
+var n=Promise.resolve(6);
+Promise.all([n]).then(function(data){
+  console.log("the value of n"+data);
 });
