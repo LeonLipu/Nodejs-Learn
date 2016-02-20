@@ -1,3 +1,6 @@
+
+//error handiling 
+
 try {
   throw new Error("error123");
 } catch (e) {
