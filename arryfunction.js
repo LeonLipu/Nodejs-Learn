@@ -132,3 +132,14 @@ console.log(intarr);
 //concatenation of string
 console.log(intarr.toString());//concatenated by ,(comma)
 console.log(intarr.join("|"));//concatenated by delimeter given by bracket
+
+
+//**********************New functionality added ********************
+
+console.log("**********new functionality added *****************");
+
+var name = "Brahmananda kar "
+
+console.log("****** from *********");
+
+console.log(Array.from(name));
