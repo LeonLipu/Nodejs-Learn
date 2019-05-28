@@ -61,3 +61,36 @@ var n=Promise.resolve(6);
 Promise.all([n]).then(function(data){
   console.log("the value of n"+data);
 });
+
+
+// async function 
+
+function settimfunction(){
+
+  return new Promise(function (resolve,reject){
+  
+  setTimeOut(function(){
+  resolve("I am resolved");
+  },2000);
+    
+  }); //end of promise 
+  
+  
+}  // end of function 
+
+
+// step to call async function 
+
+async function hellfun(){
+
+  console.log("I am hello function ");
+  
+  var result= await settimefunc();
+  
+ console.log(result);
+}
+
+
+
+
+
