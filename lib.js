@@ -9,12 +9,11 @@ for(var i=0;i<this.length;i++){
 }
 
 
-Array.prototype.indexOfLastObject=function(object){
+Array.prototype.indexOfLastObject=function(property,value){
 for(var i=this.length-1;i>=0;i--){
-  if(this[i][Object.keys(object)[0]]==object[Object.keys(object)[0]])
+  if(this[i][property]==value)
    return i;
   }
-
 }
 
 
