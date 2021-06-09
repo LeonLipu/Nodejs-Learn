@@ -1,4 +1,14 @@
 var arr=["some",'hello','world','may','not'];
+
+//get key 
+
+for (let num in arr) {console.log(num);}
+
+//get value 
+
+for (let num of arr){console.log(num);};
+
+
 console.log("************ forEach  *******************");
 //foreach for traversing
 arr.forEach(function(ele,index,ar){
