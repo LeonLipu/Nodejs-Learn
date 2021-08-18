@@ -64,4 +64,56 @@ console.log("************* upper and lower case and trim   *************");
 console.log("SOMETHING ".toLowerCase());
 console.log("something".toUpperCase());
 
-console.log("  something  and  ".trim();
+console.log("  something  and  ".trim());
+
+
+// New version changes 
+
+
+// concat 
+
+var s1='Brahma'
+
+var s2='kar'
+
+console.log(s1.concat(s2))
+
+// includes 
+
+var s='brahmananda kar '
+console.log(s.includes('nanda'))
+
+// padding
+
+var s='ram'
+
+console.log(
+
+  s.padEnd(23,'.')
+
+)
+console.log(
+
+s.padStart(23,'.')
+
+)
+
+
+//raw == not need to escape any char 
+
+var r=String.raw`"sdfkjsdlkfjafsdfs\sdfsd\sdfsd\fs\df\sfdsdfa/dfaskfdj093240923840(*(&*&^&%&^(*)^&^$^$\"'sdf'sdf'"))`
+
+console.log(`I am ${r}`)
+
+
+//repeat 
+
+console.log('ram'.repeat(20))
+
+
+
+
+
+
+
+
