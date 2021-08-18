@@ -153,3 +153,98 @@ var name = "Brahmananda kar "
 console.log("****** from *********");
 
 console.log(Array.from(name));
+// Array.of == it constructor to create array 
+
+var kk= Array.of(2,3,4,234,3)
+
+console.log(kk)
+
+
+
+// New method added 
+
+var a1=['a','b','c']
+var a2=['d','e','f']
+console.log(a1.concat(a2))
+
+// 1. copywithin   target (where it will paste), start(first index) ,end(up to index ) -- copy part of array to itself 
+
+var a1=['a','b','c','d','e']
+
+console.log(a1.copyWithin(0,2,4))
+
+// Entry like in java hashmap 
+
+var a1=['a','b','c','d','e']
+var it=a1.entries()
+console.log(it.next().value)
+
+// Values like java hashmap
+
+var a1=['a','b','c','d','e']
+var it=a1.values()
+
+for( let v of it ){
+  console.log(v)
+}
+
+
+
+// Fill (value ,start , end )
+var a1=['a','b','c','d','e']
+a1.fill(0,1,4)
+console.log(a1)
+
+// find ==input is callback, it is like filter but only return first value and one value 
+
+var a1=['a','b','c','d','e']
+console.log(a1.find(e=> e>'c'))
+
+// findIndex ==input is callback, it is like filter but only return first ndex and one index
+
+var a1=['a','b','c','d','e']
+console.log(a1.findIndex(e=> e>'c'))
+
+
+// indexof (element )==return first index
+var a1=['a','b','c','d','e']
+console.log(a1.indexOf('d'))
+
+// include (element )==return boolean value 
+
+var a1=['a','b','c','d','e']
+console.log(a1.includes('d'))
+
+
+// flat (depth -- remove level subarry ex 1 means 1 level , default is all )- it will remove all sub array and  elements will added to parent element 
+
+const arr1 = [0, 1, 2, [3, 4]];
+console.log(arr1.flat())
+
+
+// flatmap == it is like only map but if map return array it will return element that is applicable to 1 level of array 
+// it helpfull if you want add more element to exisiting array with some condition 
+
+const arr=[2,3,5,2,3]
+
+var kk= arr.flatMap(e=> {
+
+  if(e==5)
+  return [e,e+1]
+  else 
+  return [e]
+
+})
+
+console.log(kk)
+
+
+
+
+
+
+
+
+
+
+
